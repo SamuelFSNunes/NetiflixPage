@@ -31,6 +31,9 @@ header .logo{
     margin-left: 5px;
     width: 150px;
 }
+header img{
+    cursor: pointer;
+}
 header nav{
     text-decoration: none;
     color: #AAA;
@@ -100,9 +103,10 @@ a{
 .box-filme{
     height: 100%;
     width: 100%;
-    display: block;
+    display: flex;
     transition: transform 1s;
     transform:scale(1.0);
+    box-shadow: 0 0 10px black;
 }
 .carrosel-filmes{
     margin-top: 5px;
